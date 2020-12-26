@@ -8,17 +8,17 @@ class TreeNode(object):
 
 
 def isBalanced(self, root):    
-    return height(self, root) != -1
+    return height(root) != -1
 
-def height(self, root):
+def height(root):
     if not root:
         return 0
 
-    leftHeight = self.height(root.left)
+    leftHeight = height(root.left)
     if leftHeight is -1:
         return -1
 
-    rightHeight = self.height(root.right)
+    rightHeight = height(root.right)
     if rightHeight is -1:
         return -1
 
