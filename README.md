@@ -1,4 +1,4 @@
-# midnight
+# midnight 🌃
 
 An attempt to solve random algorithm and DS problems.
 
